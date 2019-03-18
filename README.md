@@ -17,6 +17,7 @@ There are two categories of computer language.one is Python and another one is J
 
 ## Approch to this text classfication problem
 1. We are not going to use all of the messages from all the users instead we use most active user's messages.Now we have less text data so that we don't have to worry about the memory of a computer.
-2. Make two dictionaries using Java's commen keywords(exp-css,html,js) and Python's commen keywords(exp-python,py,sklearn) respectively.
-3. Extract only those messages from the above text data which are containing these java's and python's keywords and create a new dataset using only these messages.
-4. Use CountVectorizer and TfidfVectorizer models to convert words into their vector forms and then train them with RandomForest Classifier and XGBoost Classifier respectively.
+2. Use visualization technics(like wordcloud) to see most frequent keywords and their counts in the dataset
+3. Make two dictionaries using Java's commen keywords(exp-css,html,js) and Python's commen keywords(exp-python,py,sklearn) respectively.
+4. Extract only those messages from the above text data which are containing these java's and python's keywords and create a new dataset using only these messages.
+5. Use CountVectorizer and TfidfVectorizer models to convert words into their vector forms and then train them with RandomForest Classifier and XGBoost Classifier respectively.
